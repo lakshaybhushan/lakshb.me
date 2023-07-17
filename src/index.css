@@ -4,13 +4,34 @@
 /* Bebas Neue Font */
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
-@layer utilities {
-    ::selection {
-      color: #41d6e1;
-      background: #001b1e;
-    }
-}
-
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer utilities {
+  ::selection {
+    color: #41d6e1;
+    background: #001b1e;
+  }
+}
+
+/* For devices having height<800px */
+
+@media screen and (max-height:800px) {
+  * {
+    font-size: 80%;
+  }
+
+  a {
+    font-size: 100%;
+  }
+
+  ul {
+    font-size: 120%;
+  }
+
+  div {
+    font-size: 120%;
+  }
+
+}
