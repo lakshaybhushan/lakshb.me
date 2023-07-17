@@ -1,0 +1,16 @@
+/* Outfit Font */
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+/* Bebas Neue Font */
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+@layer utilities {
+    ::selection {
+      color: #41d6e1;
+      background: #001b1e;
+    }
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
