@@ -1,17 +1,16 @@
 import React from 'react'
 // import AnimatedCursor from "react-animated-cursor"
-
 import { NavBar } from './components/NavBar'
 import { Hero } from './components/Hero'
 import { Projects } from './components/Projects'
 import { Explore } from './components/Explore'
 import { Contact } from './components/Contact'
-import {Footer} from './components/Footer'
+import { Footer } from './components/Footer'
 
 
 export const App = () => {
   return (
-    <div>
+    <>
       <NavBar />
       <Hero />
       <Projects />
@@ -27,7 +26,7 @@ export const App = () => {
         trailingSpeed={1}
         outerStyle={{ mixBlendMode: 'difference' }}
       /> */}
-    </div>
+    </>
   )
 }
 

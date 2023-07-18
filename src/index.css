@@ -8,15 +8,15 @@
 @tailwind components;
 @tailwind utilities;
 
+
 @layer utilities {
   ::selection {
-    color: #41d6e1;
-    background: #001b1e;
+    color: #90f4ff;
+    background: #01222b;
   }
 }
 
 /* For devices having height<800px */
-
 @media screen and (max-height:800px) {
   * {
     font-size: 80%;
@@ -34,4 +34,17 @@
     font-size: 120%;
   }
 
+}
+
+/* Nav Hover */
+@layer utilities {
+	ul li {
+		@apply relative tracking-[0px];
+	}
+	ul li::after {
+		@apply content-[''] bg-highlight-blue h-[3px] w-[0%] left-0 -bottom-[5px] rounded-xl absolute duration-500;
+	}
+	ul li:hover::after {
+		@apply w-[100%];
+	}
 }

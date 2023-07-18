@@ -31,12 +31,12 @@ export const Explore = () => {
           </a>
           <div className='bg-box-gray py-6 px-10 rounded-xl w-[54rem]'>
             <h1 className='text-[2rem] h-[2.5rem] font-Bebas-Neue'>Spotify Playlist</h1>
-            <p className='text-[1.5rem]'>a currated spotify playlist that I like to listen while I’m working</p>
+            <p className='text-[1.5rem]'>a collection of music that I like to listen while I’m working</p>
           </div>
           <div className='bg-box-gray rounded-xl w-[54rem]'>
           <Iframe
             style="border-radius:12px"
-            src="https://open.spotify.com/embed/playlist/6bjakLyWWbXLWBKEFxOzx5?utm_source=generator"
+            src="https://open.spotify.com/embed/playlist/6bjakLyWWbXLWBKEFxOzx5?utm_source=generator&theme=0"
             width="100%"
             height="420"
             allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"

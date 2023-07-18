@@ -12,6 +12,7 @@ export default {
         'highlight-blue' : '#41D6E1',
         'highlight-blue-2' : '#90f5fc',
         'box-gray' : '#1E1E1E',
+        'holder-color' : '#444444',
       },
       fontFamily: {
         'Outfit': 'Outfit, sans-serif',
