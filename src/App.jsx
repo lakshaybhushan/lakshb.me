@@ -6,6 +6,8 @@ import { Hero } from './components/Hero'
 import { Projects } from './components/Projects'
 import { Explore } from './components/Explore'
 import { Contact } from './components/Contact'
+import {Footer} from './components/Footer'
+
 
 export const App = () => {
   return (
@@ -15,6 +17,7 @@ export const App = () => {
       <Projects />
       <Explore />
       <Contact />
+      <Footer />
       {/* <AnimatedCursor
         innerSize={0}
         outerSize={40}

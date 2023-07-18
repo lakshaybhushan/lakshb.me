@@ -10,7 +10,8 @@ export default {
         'background-black' : '#111111',
         'lakshay-blue' : '#C4DBE0',
         'highlight-blue' : '#41D6E1',
-        'box-gray' : '#171717',
+        'highlight-blue-2' : '#90f5fc',
+        'box-gray' : '#1E1E1E',
       },
       fontFamily: {
         'Outfit': 'Outfit, sans-serif',

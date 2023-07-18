@@ -1,4 +1,5 @@
-import React from 'react'
+import React, { useState } from 'react'
+import {BsBoxArrowUpRight} from "react-icons/bs";
 
 export const Projects = () => {
 
@@ -11,20 +12,35 @@ export const Projects = () => {
 
         <div className='mt-10 flex flex-col gap-4'>
 
-          <div className='bg-box-gray py-6 px-10 rounded-xl w-[54rem]' data-src='/public/images/Nomad-Semaj.jpeg'>
+          <div id='div1' className='bg-box-gray py-6 px-10 rounded-xl w-[54rem]'>
+            <div className="flex flex-row items-center">
             <h1 className='text-[2rem] h-[2.5rem] font-Bebas-Neue'>pixelverse</h1>
+            <BsBoxArrowUpRight size={22} className='ml-3'/>
+            </div>
             <p className='text-[1.5rem]'>a free to use text-to-image generator</p>
           </div>
 
-          <div className='bg-box-gray py-6 px-10 rounded-xl w-[54rem]'><h1 className='text-[2rem] h-[2.5rem] font-Bebas-Neue'>urlify</h1>
-            <p className='text-[1.5rem]'>a super simple url shortener</p>
+          <div className='bg-box-gray py-6 px-10 rounded-xl w-[54rem]'>
+          <div className="flex flex-row items-center">
+          <h1 className='text-[2rem] h-[2.5rem] font-Bebas-Neue'>urlify</h1>
+          <BsBoxArrowUpRight size={22} className='ml-3'/>
+          </div>
+          <p className='text-[1.5rem]'>a super simple url shortener</p>
           </div>
 
-          <div className='bg-box-gray py-6 px-10 rounded-xl w-[54rem]'><h1 className='text-[2rem] h-[2.5rem] font-Bebas-Neue'>Greeney</h1>
+          <div className='bg-box-gray py-6 px-10 rounded-xl w-[54rem]'>
+          <div className="flex flex-row items-center">
+            <h1 className='text-[2rem] h-[2.5rem] font-Bebas-Neue'>Greeney</h1>
+            <BsBoxArrowUpRight size={22} className='ml-3'/>
+            </div>
             <p className='text-[1.5rem]'>a dark greenish-blue colour theme for vscode</p>
           </div>
 
-          <div className='bg-box-gray py-6 px-10 rounded-xl w-[54rem]'><h1 className='text-[2rem] h-[2.5rem] font-Bebas-Neue'>Design Hall</h1>
+          <div className='bg-box-gray py-6 px-10 rounded-xl w-[54rem]'>
+          <div className="flex flex-row items-center">
+            <h1 className='text-[2rem] h-[2.5rem] font-Bebas-Neue'>Design Hall</h1>
+            <BsBoxArrowUpRight size={22} className='ml-3'/>
+            </div>
             <p className='text-[1.5rem]'>a collection of designs that I have created</p>
           </div>
 
