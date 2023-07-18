@@ -34,6 +34,18 @@
     font-size: 120%;
   }
 
+  ::placeholder {
+    font-size: 100%;
+  }
+
+  input {
+    font-size: 180%;
+  }
+
+  textarea {
+    font-size: 180%;
+  }
+
 }
 
 /* Nav Hover */

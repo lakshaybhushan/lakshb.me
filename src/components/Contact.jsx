@@ -45,7 +45,7 @@ export const Contact = () => {
         <button className='bg-lakshay-blue text-background-black py-5 px-7 rounded-xl text-[1.5rem] hover:bg-highlight-blue-2 transition-all duration-300 hover:ease-in delay-75' type='submit' disabled={state.submitting}>Send Message</button>
         </form>
         <div className="flex flex-row mr-16 justify-end">
-                    <div className='UpperArrow w-[12rem] h-[12rem] rounded-full bg-lakshay-blue -my-40 mr-8 hover:scale-150 transition-all delay-100 duration-500 flex items-center justify-center hover:bg-highlight-blue-2' onClick={scrollToTop}>
+                    <div className='UpperArrow w-[12rem] h-[12rem] rounded-full bg-lakshay-blue mr-8 hover:scale-150 transition-all delay-100 duration-500 flex items-center justify-center hover:bg-highlight-blue-2  -my-64' onClick={scrollToTop}>
                         <BsArrowUp size={100} className='text-background-black'/>
                     </div>
                 </div>
