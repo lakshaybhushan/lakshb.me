@@ -11,8 +11,8 @@
 
 @layer utilities {
   ::selection {
-    color: #90f4ff;
-    background: #01222b;
+    color: #1E1E1E;
+    background: #C4DBE0;
   }
 }
 

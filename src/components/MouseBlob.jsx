@@ -1,0 +1,35 @@
+import React, { useEffect, useRef } from "react";
+import "./BlobStyle.css";
+
+export const BlobComponent = () => {
+  const blobRef = useRef(null);
+
+  useEffect(() => {
+    const blob = blobRef.current;
+
+    const handlePointerMove = (event) => {
+      const { clientX, clientY } = event;
+      blob.animate(
+        {
+          left: `${clientX}px`,
+          top: `${clientY}px`,
+        },
+        { duration: 3000, fill: "forwards" }
+      );
+    };
+
+    window.addEventListener("mousemove", handlePointerMove);
+
+    return () => {
+      window.removeEventListener("mousemove", handlePointerMove);
+    };
+  }, []);
+
+  return (
+    <div className="background">
+      <div id="blob" ref={blobRef}/>
+    </div>
+  );
+};
+
+export default BlobComponent;

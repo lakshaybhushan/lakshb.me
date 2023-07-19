@@ -23,7 +23,7 @@ export const Explore = () => {
             <p className='text-[1.5rem]'><span className='text-highlight-blue'>Miscellaneous:</span> Git, Github, MySQL, LibGDX (Game Dev Framework)</p>
           </div>
 
-          <div className='bg-box-gray py-6 px-10 rounded-xl w-[54rem] hover:text-white transition-all duration-700 delay-100 hover:bg-resume-color'>
+          <div className='bg-box-gray py-6 px-10 rounded-xl w-[54rem] hover:text-white transition-all duration-700 delay-75 hover:bg-resume-color'>
           <a href='https://lakshb.me/resume' target='_blank' rel="noopener noreferrer">
               <div className='flex flex-row items-center'>
                 <h1 className='text-[2rem] h-[2.5rem] font-Bebas-Neue'>Resume</h1>
