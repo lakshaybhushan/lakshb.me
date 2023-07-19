@@ -9,17 +9,20 @@ export default {
       colors: {
         'background-black' : '#111111',
         'lakshay-blue' : '#C4DBE0',
-        'highlight-blue' : '#41D6E1',
-        'highlight-blue-2' : '#90f5fc',
+        'highlight-blue' : '#90f5fc',
         'box-gray' : '#1E1E1E',
         'holder-color' : '#444444',
+        'pxorange': '#FF8139',
+        'urlify-green': '#049379',
+        'urlify-white': '#FFF6ED',
+        'greeney-green': '#00F4D0',
+        'greeney-blue': '#021C23',
+        'resume-color': '#3FADA8',
+
       },
       fontFamily: {
         'Outfit': 'Outfit, sans-serif',
         'Bebas-Neue': 'Bebas Neue, sans-serif',
-      },
-      dropShadow: {
-        'blue-3xl': '0 35px 35px rgba(152,192,200,0.2)',
       },
     },
   },
