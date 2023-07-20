@@ -1,10 +1,10 @@
-import React, { useEffect, useRef } from "react";
+import React, { useLayoutEffect, useRef } from "react";
 import "./BlobStyle.css";
 
 export const BlobComponent = () => {
   const blobRef = useRef(null);
 
-  useEffect(() => {
+  useLayoutEffect(() => {
     const blob = blobRef.current;
 
     const handlePointerMove = (event) => {
@@ -27,7 +27,7 @@ export const BlobComponent = () => {
 
   return (
     <div className="background">
-      <div id="blob" ref={blobRef}/>
+      <div id="blob" ref={blobRef} />
     </div>
   );
 };

@@ -39,66 +39,68 @@ export const Projects = () => {
   return (
     <section id='projects'>
 
-      <div className='ml-8 font-Outfit h-screen pt-10'>
+      <motion.div
+        initial={{ opacity: 0, y: '150' }}
+        animate={{ opacity: 1, y: 0, transition: { duration: 2, delay: 0.5, type: 'spring', bounce: 0.3, } }}
+        className='md:ml-8 font-Outfit md:h-screen md:pt-10 pt-5'>
 
-        <h1 className='font-Bebas-Neue text-[4.65rem] h-[6.5rem]'>Projects</h1>
+        <h1 className='font-Bebas-Neue md:text-[4.65rem] md:h-[6.5rem] text-[4rem] text-center md:text-left'>Projects</h1>
 
-        <p className='text-[2.75rem] w-[60rem] leading-tight'>these are some of the latest projects that I have worked on ... more on <a href='https://github.com/lakshaybhushan' target='_blank' rel="noopener noreferrer" className='underline decoration-solid hover:text-highlight-blue transition-colors duration-500'>github</a></p>
+        <p className='md:text-[2.75rem] md:w-[60rem] leading-tight text-center px-10 md:text-left md:px-0 text-[1.6rem]'>these are some of the latest projects that I have worked on ... more on <a href='https://github.com/lakshaybhushan' target='_blank' rel="noopener noreferrer" className='underline decoration-solid hover:text-highlight-blue transition-colors duration-500'>github</a></p>
 
         <div ref={ref} className="Reference"></div>
 
-        <div className='container hovering mt-10 flex flex-col gap-4'>
+        <div className='mt-10 flex flex-col md:gap-4 gap-5'>
           <motion.div animate={animation} custom={0}>
-            <div className='bg-box-gray py-6 px-10 rounded-xl w-[54rem] hover:text-black transition-all duration-700 delay-75 hover:bg-pxorange'>
-            <a href='https://pixelverse.lakshb.me/' target='_blank' rel="noopener noreferrer">
-              <div className="flex flex-row items-center">
-                <h1 className='text-[2rem] h-[2.5rem] font-Bebas-Neue'>pixelverse</h1>
-                <BsBoxArrowUpRight size={22} className='ml-3' />
-              </div>
-              <p className='text-[1.5rem]'>a free to use text-to-image generator</p>
-            </a>
+            <div className='bg-box-gray py-6 px-10 rounded-xl md:w-[54rem] hover:text-black transition-all duration-700 delay-75 hover:bg-pxorange mx-10 md:mx-0'>
+              <a href='https://pixelverse.lakshb.me/' target='_blank' rel="noopener noreferrer">
+                <div className="flex flex-row items-center">
+                  <h1 className='text-[2rem] h-[2.5rem] font-Bebas-Neue'>pixelverse</h1>
+                  <BsBoxArrowUpRight size={22} className='bsarrow ml-3' />
+                </div>
+                <p className='md:text-[1.5rem] text-[1.3rem] leading-tight md:leading-normal'>a free to use text-to-image generator</p>
+              </a>
             </div>
-
           </motion.div>
 
           <motion.div animate={animation} custom={1}>
-            <div className='bg-box-gray py-6 px-10 rounded-xl w-[54rem] hover:text-urlify-white transition-all duration-700 delay-75 hover:bg-urlify-green'>
+            <div className='bg-box-gray py-6 px-10 rounded-xl md:w-[54rem] hover:text-urlify-white transition-all duration-700 delay-75 hover:bg-urlify-green mx-10 md:mx-0'>
               <a href='https://urlify.lakshb.me/' target='_blank' rel="noopener noreferrer">
-              <div className="flex flex-row items-center">
-                <h1 className='text-[2rem] h-[2.5rem] font-Bebas-Neue'>urlify</h1>
-                <BsBoxArrowUpRight size={22} className='ml-3' />
-              </div>
-              <p className='text-[1.5rem]'>a super simple url shortener</p>
+                <div className="flex flex-row items-center">
+                  <h1 className='text-[2rem] h-[2.5rem] font-Bebas-Neue'>urlify</h1>
+                  <BsBoxArrowUpRight size={22} className='bsarrow ml-3' />
+                </div>
+                <p className='md:text-[1.5rem] text-[1.3rem] leading-tight md:leading-normal'>a super simple url shortener</p>
               </a>
             </div>
           </motion.div>
 
           <motion.div animate={animation} custom={2}>
-          <div className='bg-box-gray py-6 px-10 rounded-xl w-[54rem] hover:text-greeney-blue transition-all duration-700 delay-75 hover:bg-greeney-green'>
+            <div className='bg-box-gray py-6 px-10 rounded-xl md:w-[54rem] hover:text-greeney-blue transition-all duration-700 delay-75 hover:bg-greeney-green mx-10 md:mx-0'>
               <a href='https://greeney.lakshb.me/' target='_blank' rel="noopener noreferrer">
-              <div className="flex flex-row items-center">
-                <h1 className='text-[2rem] h-[2.5rem] font-Bebas-Neue'>Greeney</h1>
-                <BsBoxArrowUpRight size={22} className='ml-3' />
-              </div>
-              <p className='text-[1.5rem]'>a dark greenish-blue colour theme for vscode</p>
+                <div className="flex flex-row items-center">
+                  <h1 className='text-[2rem] h-[2.5rem] font-Bebas-Neue'>Greeney</h1>
+                  <BsBoxArrowUpRight size={22} className='bsarrow ml-3' />
+                </div>
+                <p className='md:text-[1.5rem] text-[1.3rem] leading-tight md:leading-normal'>a dark greenish-blue colour theme for vscode</p>
               </a>
             </div>
           </motion.div>
 
           <motion.div animate={animation} custom={3}>
-          <div className='bg-box-gray py-6 px-10 rounded-xl w-[54rem] hover:text-black transition-all duration-700 delay-75 hover:bg-white'>
+            <div className='bg-box-gray py-6 px-10 rounded-xl md:w-[54rem] hover:text-black transition-all duration-700 delay-75 hover:bg-white mx-10 md:mx-0'>
               <a href='https://designhall.lakshb.me/' target='_blank' rel="noopener noreferrer">
-              <div className="flex flex-row items-center">
-                <h1 className='text-[2rem] h-[2.5rem] font-Bebas-Neue'>Design Hall</h1>
-                <BsBoxArrowUpRight size={22} className='ml-3' />
-              </div>
-              <p className='text-[1.5rem]'>a collection of designs that I have created</p>
+                <div className="flex flex-row items-center">
+                  <h1 className='text-[2rem] h-[2.5rem] font-Bebas-Neue'>Design Hall</h1>
+                  <BsBoxArrowUpRight size={22} className='bsarrow ml-3' />
+                </div>
+                <p className='md:text-[1.5rem] text-[1.3rem] leading-tight md:leading-normal'>a collection of designs that I have created</p>
               </a>
             </div>
           </motion.div>
 
         </div>
-      </div>
+      </motion.div>
     </section>
   )
 }

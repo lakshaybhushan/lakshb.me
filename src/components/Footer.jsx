@@ -1,20 +1,24 @@
 import React from 'react'
 import { FaGithub, FaInstagram, FaBehance, FaLinkedinIn, FaSpotify, FaTwitter } from "react-icons/fa";
+import { motion } from 'framer-motion'
 
 export const Footer = () => {
     return (
-        <div className='Footer font-Outfit'>
-            <div className="bg-box-gray py-5 px-7 rounded-xl mx-8 mb-10">
+        <motion.div
+            initial={{ opacity: 0, y: '150' }}
+            animate={{ opacity: 1, y: 0, transition: { duration: 2, delay: 0.5, type: 'spring', bounce: 0.3, } }}
+            className='Footer font-Outfit'>
+            <div className="bg-box-gray md:py-5 md:px-7 md:rounded-xl md:mx-8 md:my-8 py-5 ">
 
-                <div className="flex flex-row items-center justify-between">
+                <div className="md:flex md:flex-row md:items-center md:justify-between">
 
-                    <div>
-                        <h1 className='font-Bebas-Neue text-[2rem] h-[2.75rem]'>About This Website</h1>
+                    <div className='aboutthiswebsite'>
+                        <h1 className='font-Bebas-Neue md:text-[2rem] md:h-[2.75rem] text-[1.5rem]'>About This Website</h1>
 
-                        <p className="text-[1.5rem]">this website is designed in Figma, built with React, Tailwind CSS, and Vite.</p>
+                        <p className="md:text-[1.5rem]">this website is designed in Figma, built with React, Tailwind CSS, and Vite.</p>
                     </div>
 
-                    <div className='flex flex-row space-x-8 ml-10 mr-10'>
+                    <div className='flex flex-row md:space-x-8 md:ml-10 md:mr-10 items-center justify-center space-x-4'>
                         <a href="https://www.instagram.com/lakshaybhushan" target="_blank" rel="noopener noreferrer" className=" hover:text-highlight-blue transition-color duration-500">
                             <FaInstagram size={30} />
                         </a>
@@ -46,7 +50,7 @@ export const Footer = () => {
 
 
             </div>
-        </div>
+        </motion.div>
     )
 }
 

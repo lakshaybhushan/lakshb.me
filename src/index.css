@@ -35,6 +35,41 @@
   }
 
   ::placeholder {
+    font-size: 80%;
+  }
+
+  input {
+    font-size: 160%;
+  }
+
+  textarea {
+    font-size: 160%;
+  }
+
+  span{
+    font-size: 100%;
+  }
+
+}
+
+@media screen and (max-height:500px) {
+  * {
+    font-size: 50%;
+  }
+
+  a {
+    font-size: 100%;
+  }
+
+  ul {
+    font-size: 180%;
+  }
+
+  div {
+    font-size: 120%;
+  }
+
+  ::placeholder {
     font-size: 100%;
   }
 
@@ -44,6 +79,26 @@
 
   textarea {
     font-size: 180%;
+  }
+
+  .UpperArrow {
+    display: none;
+  }
+
+  .Footer{
+    display: none;
+  }
+
+  span{
+    font-size: 100%;
+  }
+
+  .bsarrow{
+    display: none;
+  }
+
+  .formbox{
+    padding-bottom: 40px;
   }
 
 }
@@ -59,4 +114,13 @@
 	ul li:hover::after {
 		@apply w-[100%];
 	}
+}
+
+@media only screen and (max-width: 768px) {
+  .UpperArrow {
+    display: none;
+  }
+  .aboutthiswebsite{
+    display: none;
+  }
 }
