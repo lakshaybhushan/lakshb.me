@@ -8,7 +8,7 @@ export const Footer = () => {
             initial={{ opacity: 0, y: '150' }}
             animate={{ opacity: 1, y: 0, transition: { duration: 2, delay: 0.5, type: 'spring', bounce: 0.3, } }}
             className='Footer font-Outfit'>
-            <div className="bg-box-gray md:py-5 md:px-7 md:rounded-xl md:mx-8 md:my-8 py-5 ">
+            <div className="bg-box-gray md:py-5 md:px-7 md:rounded-xl md:mx-8 md:my-8 py-5 mt-10">
 
                 <div className="md:flex md:flex-row md:items-center md:justify-between">
 
