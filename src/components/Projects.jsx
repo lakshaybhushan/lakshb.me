@@ -52,7 +52,7 @@ export const Projects = () => {
 
         <div className='mt-10 flex flex-col md:gap-4 gap-5'>
           <motion.div animate={animation} custom={0}>
-            <div className='bg-box-gray py-6 px-10 rounded-xl md:w-[54rem] hover:text-black transition-all duration-700 delay-75 hover:bg-pxorange mx-10 md:mx-0'>
+            <div className='bg-box-gray py-6 px-10 rounded-xl md:w-[54rem] md:hover:text-black transition-all duration-700 delay-75 md:hover:bg-pxorange mx-10 md:mx-0'>
               <a href='https://pixelverse.lakshb.me/' target='_blank' rel="noopener noreferrer">
                 <div className="flex flex-row items-center">
                   <h1 className='text-[2rem] h-[2.5rem] font-Bebas-Neue'>pixelverse</h1>
@@ -64,7 +64,7 @@ export const Projects = () => {
           </motion.div>
 
           <motion.div animate={animation} custom={1}>
-            <div className='bg-box-gray py-6 px-10 rounded-xl md:w-[54rem] hover:text-urlify-white transition-all duration-700 delay-75 hover:bg-urlify-green mx-10 md:mx-0'>
+            <div className='bg-box-gray py-6 px-10 rounded-xl md:w-[54rem] md:hover:text-urlify-white transition-all duration-700 delay-75 md:hover:bg-urlify-green mx-10 md:mx-0'>
               <a href='https://urlify.lakshb.me/' target='_blank' rel="noopener noreferrer">
                 <div className="flex flex-row items-center">
                   <h1 className='text-[2rem] h-[2.5rem] font-Bebas-Neue'>urlify</h1>
@@ -76,7 +76,7 @@ export const Projects = () => {
           </motion.div>
 
           <motion.div animate={animation} custom={2}>
-            <div className='bg-box-gray py-6 px-10 rounded-xl md:w-[54rem] hover:text-greeney-blue transition-all duration-700 delay-75 hover:bg-greeney-green mx-10 md:mx-0'>
+            <div className='bg-box-gray py-6 px-10 rounded-xl md:w-[54rem] md:hover:text-greeney-blue transition-all duration-700 delay-75 md:hover:bg-greeney-green mx-10 md:mx-0'>
               <a href='https://greeney.lakshb.me/' target='_blank' rel="noopener noreferrer">
                 <div className="flex flex-row items-center">
                   <h1 className='text-[2rem] h-[2.5rem] font-Bebas-Neue'>Greeney</h1>
@@ -88,7 +88,7 @@ export const Projects = () => {
           </motion.div>
 
           <motion.div animate={animation} custom={3}>
-            <div className='bg-box-gray py-6 px-10 rounded-xl md:w-[54rem] hover:text-black transition-all duration-700 delay-75 hover:bg-white mx-10 md:mx-0'>
+            <div className='bg-box-gray py-6 px-10 rounded-xl md:w-[54rem] md:hover:text-black transition-all duration-700 delay-75 md:hover:bg-white mx-10 md:mx-0'>
               <a href='https://designhall.lakshb.me/' target='_blank' rel="noopener noreferrer">
                 <div className="flex flex-row items-center">
                   <h1 className='text-[2rem] h-[2.5rem] font-Bebas-Neue'>Design Hall</h1>

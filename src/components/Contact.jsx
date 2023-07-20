@@ -13,8 +13,8 @@ export const Contact = () => {
   const [state, handleSubmit] = useForm("mpzgwqaz"); // ENDPOINT
   if (state.succeeded) {
     return (
-      <div className="Form Submission bg-box-gray py-6 px-8 rounded-xl ml-8 my-10 w-[54rem]">
-        <p className='font-Outfit text-2xl text-highlight-blue-2'>thank you for reaching out! I have received your message and will get back to you asap.</p>
+      <div className="Form Submission bg-box-gray md:py-6 md:px-8 py-2  rounded-xl md:ml-8 md:my-10 md:w-[54rem] md:text-[1.5rem] leading-tight md:leading-normal mt-10 md:mx-0 mx-10 text-center px-5 md:text-left">
+        <p className='font-Outfit md:text-2xl text-[1.3rem]'>thank you for reaching out! I have received your message and will get back to you asap.</p>
       </div>
     );
   }
@@ -47,7 +47,7 @@ export const Contact = () => {
 
             <ValidationError prefix="Message" field="message" errors={state.errors} />
 
-            <button className='bg-lakshay-blue text-background-black md:py-5 py-2 md:rounded-xl rounded-md md:text-[1.5rem] text-[1.2rem] hover:bg-highlight-blue transition-all duration-500 hover:ease-in' type='submit' disabled={state.submitting}>Send Message</button>
+            <button className='bg-lakshay-blue text-background-black md:py-5 py-2 md:rounded-xl rounded-md md:text-[1.5rem] text-[1.2rem] md:hover:bg-highlight-blue transition-all duration-500 hover:ease-in' type='submit' disabled={state.submitting}>Send Message</button>
           </form>
         </div>
         <div className="flex flex-row md:mr-16 md:justify-end justify-center">

@@ -2,9 +2,8 @@ import React from 'react'
 import { BsBoxArrowUpRight } from "react-icons/bs"
 import Iframe from 'react-iframe'
 import { motion } from 'framer-motion'
+
 export const Explore = () => {
-
-
   return (
     <section id='explore'>
       <motion.div
@@ -26,13 +25,13 @@ export const Explore = () => {
             <p className='md:text-[1.5rem] text-[1.3rem] leading-tight md:leading-normal'><span className='text-highlight-blue'>Miscellaneous:</span> Git, Github, MySQL, LibGDX (Game Dev Framework)</p>
           </div>
 
-          <div className='bg-box-gray py-6 px-10 rounded-xl md:w-[54rem] mx-10 md:mx-0 hover:text-white transition-all duration-700 delay-75 hover:bg-resume-color'>
-            <a href='https://lakshb.me/resume' target='_blank' rel="noopener noreferrer">
+          <div className='bg-box-gray py-6 px-10 rounded-xl md:w-[54rem] mx-10 md:mx-0 md:hover:text-white transition-all duration-700 delay-75 md:hover:bg-resume-color'>
+            <a href='https://resume.lakshb.me/' target='_blank' rel="noopener noreferrer">
               <div className='flex flex-row items-center'>
-                <h1 className='text-[2rem] h-[2.5rem] font-Bebas-Neue'>Resume</h1>
-                <BsBoxArrowUpRight size={22} className='bsarrow ml-3' />
-              </div>
-              <p className='md:text-[1.5rem] text-[1.3rem] leading-tight md:leading-normal'>my iiit delhi format resume <span className='underline decoration-dotted decoration-2 '>(pdf)</span></p>
+              <h1 className='text-[2rem] h-[2.5rem] font-Bebas-Neue'>Resume</h1>
+              <BsBoxArrowUpRight size={22} className='bsarrow ml-3' />
+            </div>
+            <p className='md:text-[1.5rem] text-[1.3rem] leading-tight md:leading-normal'>my iiit delhi format resume <span className='underline decoration-dotted decoration-2 '>(pdf)</span></p>
             </a>
           </div>
 

@@ -13,7 +13,6 @@ export const NavBar = () => {
                     animate={{ opacity: 1, x: 0, transition: { duration: 2, delay: 0.5, type: 'spring', } }}>
                     <ul className='flex md:mx-8 md:gap-20 gap-10'>
                         <li className='hover:text-highlight-blue transition-colors duration-500'>
-
                             <Link to='home' spy={true} smooth={true} duration={800}>
                                 <button>Home</button>
                             </Link>

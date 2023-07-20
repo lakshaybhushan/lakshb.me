@@ -18,28 +18,28 @@ export const Footer = () => {
                         <p className="md:text-[1.5rem]">this website is designed in Figma, built with React, Tailwind CSS, and Vite.</p>
                     </div>
 
-                    <div className='flex flex-row md:space-x-8 md:ml-10 md:mr-10 items-center justify-center space-x-4'>
-                        <a href="https://www.instagram.com/lakshaybhushan" target="_blank" rel="noopener noreferrer" className=" hover:text-highlight-blue transition-color duration-500">
+                    <div className='flex flex-row md:space-x-8 md:ml-10 md:mr-10 items-center justify-center space-x-6'>
+                        <a href="https://www.instagram.com/lakshaybhushan" target="_blank" rel="noopener noreferrer" className=" md:hover:text-highlight-blue transition-color duration-500">
                             <FaInstagram size={30} />
                         </a>
 
-                        <a href="https://www.linkedin.com/in/lakshaybhushan/" target="_blank" rel="noopener noreferrer" className=" hover:text-highlight-blue transition-color duration-500">
+                        <a href="https://www.linkedin.com/in/lakshaybhushan/" target="_blank" rel="noopener noreferrer" className=" md:hover:text-highlight-blue transition-color duration-500">
                             <FaLinkedinIn size={30} />
                         </a>
 
-                        <a href="https://www.behance.net/lakshaybhushan" target="_blank" rel="noopener noreferrer" className=" hover:text-highlight-blue transition-color duration-500">
+                        <a href="https://www.behance.net/lakshaybhushan" target="_blank" rel="noopener noreferrer" className=" md:hover:text-highlight-blue transition-color duration-500">
                             <FaBehance size={30} />
                         </a>
 
-                        <a href="https://github.com/lakshaybhushan" target="_blank" rel="noopener noreferrer" className=" hover:text-highlight-blue transition-color duration-500">
+                        <a href="https://github.com/lakshaybhushan" target="_blank" rel="noopener noreferrer" className=" md:hover:text-highlight-blue transition-color duration-500">
                             <FaGithub size={30} />
                         </a>
 
-                        <a href="https://open.spotify.com/user/amcdf5xiittevf5gl1ecjqfyu" target="_blank" rel="noopener noreferrer" className=" hover:text-highlight-blue transition-color duration-500">
+                        <a href="https://open.spotify.com/user/amcdf5xiittevf5gl1ecjqfyu" target="_blank" rel="noopener noreferrer" className=" md:hover:text-highlight-blue transition-color duration-500">
                             <FaSpotify size={30} />
                         </a>
 
-                        <a href="https://twitter.com/bhushanlakshay" target="_blank" rel="noopener noreferrer" className=" hover:text-highlight-blue transition-color duration-500">
+                        <a href="https://twitter.com/bhushanlakshay" target="_blank" rel="noopener noreferrer" className=" md:hover:text-highlight-blue transition-color duration-500">
                             <FaTwitter size={30} />
                         </a>
 
