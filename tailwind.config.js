@@ -18,6 +18,8 @@ export default {
         'greeney-green': '#00F4D0',
         'greeney-blue': '#021C23',
         'resume-color': '#3FADA8',
+        'designhall-green': '#53FFA3',
+        'designhall-black': '#111111',
       },
       fontFamily: {
         'Outfit': 'Outfit, sans-serif',

@@ -51,7 +51,7 @@ export const Contact = () => {
           </form>
         </div>
         <div className="flex flex-row md:mr-16 md:justify-end justify-center">
-          <div className='UpperArrow md:w-[12rem] md:h-[12rem] rounded-full bg-lakshay-blue md:mr-8 md:hover:scale-150 transition-all delay-100 duration-500 flex items-center justify-center hover:bg-highlight-blue md:-my-64 ' onClick={scrollToTop}>
+          <div className='UpperArrow md:w-[12rem] md:h-[12rem] rounded-full bg-lakshay-blue md:mr-8 md:hover:scale-150 transition-all duration-500 flex items-center justify-center hover:bg-highlight-blue md:-my-64 ' onClick={scrollToTop}>
             <BsArrowUp size={100} className='text-background-black' />
           </div>
         </div>
