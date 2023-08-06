@@ -1,23 +1,22 @@
 /* Outfit Font */
-@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap");
 
 /* Bebas Neue Font */
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap");
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-
 @layer utilities {
   ::selection {
-    color: #1E1E1E;
-    background: #C4DBE0;
+    color: #1e1e1e;
+    background: #c4dbe0;
   }
 }
 
 /* For devices having height<800px */
-@media screen and (max-height:800px) {
+@media screen and (max-height: 800px) {
   * {
     font-size: 80%;
   }
@@ -46,13 +45,12 @@
     font-size: 160%;
   }
 
-  span{
+  span {
     font-size: 100%;
   }
-
 }
 
-@media screen and (max-height:500px) {
+@media screen and (max-height: 500px) {
   * {
     font-size: 50%;
   }
@@ -85,42 +83,41 @@
     display: none;
   }
 
-  .Footer{
+  .Footer {
     display: none;
   }
 
-  span{
+  span {
     font-size: 100%;
   }
 
-  .bsarrow{
+  .bsarrow {
     display: none;
   }
 
-  .formbox{
+  .formbox {
     padding-bottom: 40px;
   }
-
 }
 
 /* Nav Hover */
 @layer utilities {
-	ul li {
-		@apply relative tracking-[0px];
-	}
-	ul li::after {
-		@apply content-[''] bg-highlight-blue h-[3px] w-[0%] left-0 -bottom-[5px] rounded-xl absolute duration-500;
-	}
-	ul li:hover::after {
-		@apply w-[100%];
-	}
+  ul li {
+    @apply relative tracking-[0px];
+  }
+  ul li::after {
+    @apply content-[''] bg-highlight-blue h-[3px] w-[0%] left-0 -bottom-[5px] rounded-xl absolute duration-500;
+  }
+  ul li:hover::after {
+    @apply w-[100%];
+  }
 }
 
 @media only screen and (max-width: 768px) {
   .UpperArrow {
     display: none;
   }
-  .aboutthiswebsite{
+  .aboutthiswebsite {
     display: none;
   }
 }
