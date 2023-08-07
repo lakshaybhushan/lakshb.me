@@ -1,6 +1,6 @@
 import React from "react";
 import Lenis from "@studio-freight/lenis";
-
+import { motion } from "framer-motion";
 import { NavBar } from "./components/NavBar";
 import { Hero } from "./components/Hero";
 import { Projects } from "./components/Projects";
@@ -20,13 +20,19 @@ export const App = () => {
 
   return (
     <>
+      <motion.div
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        transition={{ duration: 1.5}}
+      >
         <NavBar />
         <Hero />
         <Projects />
         <Explore />
         <Contact />
         <Footer />
-      <BlobComponent />
+        <BlobComponent />
+      </motion.div>
     </>
   );
 };
