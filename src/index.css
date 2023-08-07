@@ -15,8 +15,8 @@
   }
 }
 
-html {
-  overflow: hidden; /* Hide scrollbars */
+body {
+  overflow: hidden;
 }
 
 /* For devices having height<800px */
@@ -118,6 +118,10 @@ html {
 }
 
 @media only screen and (max-width: 768px) {
+  body {
+    overflow: visible;
+  }
+
   .UpperArrow {
     display: none;
   }
