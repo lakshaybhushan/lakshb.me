@@ -7,6 +7,8 @@ import { Projects } from "./components/Projects";
 import { Explore } from "./components/Explore";
 import { Contact } from "./components/Contact";
 import { Footer } from "./components/Footer";
+import { Preloader } from "./components/Preloader";
+
 const BlobComponent = React.lazy(() => import("./components/MouseBlob"));
 
 export const App = () => {
@@ -23,8 +25,8 @@ export const App = () => {
       <motion.div
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
-        transition={{ duration: 1.5}}
-      >
+        transition={{ duration: 1.5 }}>
+        <Preloader />
         <NavBar />
         <Hero />
         <Projects />
