@@ -31,11 +31,12 @@ export const Preloader = () => {
           initial={{ opacity: 1 }}
           animate={{ opacity: 1 }}
           exit={{ opacity: 0 }}
-          transition={{ duration: 0.5 }}
-          className="top-0 h-screen w-full text-lakshay-blue bottom-0 left-0 right-0 z-[100] flex flex-col justify-center items-center overflow-hidden font-Bebas-Neue text-6xl md:text-9xl bg-background-black fixed">
+          transition={{ duration: 0.3 }}
+          className="fixed bottom-0 left-0 right-0 top-0 z-[100] flex h-screen w-full flex-col items-center justify-center overflow-hidden bg-background-black font-Bebas-Neue text-6xl text-lakshay-blue md:text-9xl"
+        >
           <div id="percent" />
-          <div id="bar" className="w-[60%] mt-[20px]">
-            <div id="progress" className="w-[1%] p-[10px] bg-lakshay-blue" />
+          <div id="bar" className="mt-[20px] w-[60%]">
+            <div id="progress" className="w-[1%] bg-lakshay-blue p-[10px]" />
           </div>
         </motion.div>
       )}

@@ -7,18 +7,14 @@ import {
   FaSpotify,
   FaTwitter,
 } from "react-icons/fa";
-// import { motion } from "framer-motion";
 
 export const Footer = () => {
   return (
-    // <motion.div
-    //     initial={{ opacity: 0, y: '150' }}
-    //     animate={{ opacity: 1, y: 0, transition: { duration: 2, delay: 0.5, type: 'spring', bounce: 0.3, } }}
     <div className="Footer font-Outfit">
-      <div className="bg-box-gray md:py-5 md:px-7 md:rounded-xl md:mx-8 md:my-8 py-5 mt-10">
+      <div className="mt-10 bg-box-gray py-5 md:mx-8 md:my-8 md:rounded-xl md:px-7 md:py-5">
         <div className="md:flex md:flex-row md:items-center md:justify-between">
           <div className="aboutthiswebsite">
-            <h1 className="font-Bebas-Neue md:text-[2rem] md:h-[2.75rem] text-[1.5rem]">
+            <h1 className="font-Bebas-Neue text-[1.5rem] md:h-[2.75rem] md:text-[2rem]">
               About This Website
             </h1>
 
@@ -28,12 +24,13 @@ export const Footer = () => {
             </p>
           </div>
 
-          <div className="flex flex-row md:space-x-8 md:ml-10 md:mr-10 items-center justify-center space-x-6">
+          <div className="flex flex-row items-center justify-center space-x-6 md:ml-10 md:mr-10 md:space-x-8">
             <a
               href="https://www.instagram.com/lakshaybhushan"
               target="_blank"
               rel="noopener noreferrer"
-              className=" md:hover:text-highlight-blue transition-color duration-500">
+              className=" transition-color duration-500 md:hover:text-highlight-blue"
+            >
               <FaInstagram size={30} />
             </a>
 
@@ -41,7 +38,8 @@ export const Footer = () => {
               href="https://www.linkedin.com/in/lakshaybhushan/"
               target="_blank"
               rel="noopener noreferrer"
-              className=" md:hover:text-highlight-blue transition-color duration-500">
+              className=" transition-color duration-500 md:hover:text-highlight-blue"
+            >
               <FaLinkedinIn size={30} />
             </a>
 
@@ -49,7 +47,8 @@ export const Footer = () => {
               href="https://www.behance.net/lakshaybhushan"
               target="_blank"
               rel="noopener noreferrer"
-              className=" md:hover:text-highlight-blue transition-color duration-500">
+              className=" transition-color duration-500 md:hover:text-highlight-blue"
+            >
               <FaBehance size={30} />
             </a>
 
@@ -57,7 +56,8 @@ export const Footer = () => {
               href="https://github.com/lakshaybhushan"
               target="_blank"
               rel="noopener noreferrer"
-              className=" md:hover:text-highlight-blue transition-color duration-500">
+              className=" transition-color duration-500 md:hover:text-highlight-blue"
+            >
               <FaGithub size={30} />
             </a>
 
@@ -65,7 +65,8 @@ export const Footer = () => {
               href="https://open.spotify.com/user/amcdf5xiittevf5gl1ecjqfyu"
               target="_blank"
               rel="noopener noreferrer"
-              className=" md:hover:text-highlight-blue transition-color duration-500">
+              className=" transition-color duration-500 md:hover:text-highlight-blue"
+            >
               <FaSpotify size={30} />
             </a>
 
@@ -73,7 +74,8 @@ export const Footer = () => {
               href="https://twitter.com/bhushanlakshay"
               target="_blank"
               rel="noopener noreferrer"
-              className=" md:hover:text-highlight-blue transition-color duration-500">
+              className=" transition-color duration-500 md:hover:text-highlight-blue"
+            >
               <FaTwitter size={30} />
             </a>
           </div>

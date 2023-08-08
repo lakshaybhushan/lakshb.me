@@ -1,5 +1,5 @@
 import React, { useLayoutEffect, useRef } from "react";
-import "./BlobStyle.css";
+import "./styles/blob.css";
 
 export const BlobComponent = () => {
   const blobRef = useRef(null);
